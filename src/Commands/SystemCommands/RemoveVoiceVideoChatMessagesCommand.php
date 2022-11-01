@@ -25,7 +25,7 @@ class RemoveVoiceVideoChatMessagesCommand extends SystemCommand
 
 	public function execute(): ServerResponse
 	{
-		$message = $this->getMessage() ?: $this->getEditedMessage() ?: $this->getChannelPost() ?: $this->getEditedChannelPost();
+		$message = $this->getMessage();
 
 		if ($message->getVideoChatStarted()
 			|| $message->getVideoChatEnded()
