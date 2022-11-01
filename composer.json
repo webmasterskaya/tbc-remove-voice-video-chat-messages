@@ -1,0 +1,36 @@
+{
+	"name": "webmasterskaya/tbc-remove-voice-video-chat-messages",
+	"type": "library",
+	"description": "Telegram bot command for remove pinned messages ",
+	"keywords": [
+		"telegram",
+		"bot",
+		"voice chat started",
+		"voice chat ended",
+		"video chat started",
+		"video chat ended"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/webmasterskaya/tbc-remove-voice-video-chat-messages",
+	"support": {
+		"issues": "https://github.com/webmasterskaya/tbc-remove-voice-video-chat-messages/issues",
+		"source": "https://github.com/webmasterskaya/tbc-remove-voice-video-chat-messages"
+	},
+	"authors": [
+		{
+			"name": "Artem Vasilev aka kernusr",
+			"email": "kern.usr@gmail.com",
+			"homepage": "https://webmasterskaya.xyz/",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": "^7.4|^8.0",
+		"longman/telegram-bot": "^0.79.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Webmasterskaya\\TelegramBotCommands\\": "src"
+		}
+	}
+}
